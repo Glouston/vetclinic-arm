@@ -1,0 +1,27 @@
+# Виртуальные окружения
+.venv/
+venv/
+env/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# База данных (генерируется из schema.sql + seed.sql)
+*.db
+*.db.bak-*
+*.sqlite
+*.sqlite3
+
+# Логи
+logs/*.log
+
+# Служебные файлы ОС и IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Временные файлы печатных форм
+*.pdf
